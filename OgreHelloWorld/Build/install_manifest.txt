@@ -1,0 +1,8 @@
+/home/charles/Projects/OgreHelloWorld/Build/dist/.//media/materials/scripts/Ogre.material
+/home/charles/Projects/OgreHelloWorld/Build/dist/.//media/materials/textures/spheremap.png
+/home/charles/Projects/OgreHelloWorld/Build/dist/.//media/materials/textures/GreenSkin.jpg
+/home/charles/Projects/OgreHelloWorld/Build/dist/.//media/materials/textures/tusk.jpg
+/home/charles/Projects/OgreHelloWorld/Build/dist/.//media/packs/SdkTrays.zip
+/home/charles/Projects/OgreHelloWorld/Build/dist/.//media/models/ogrehead.mesh
+/home/charles/Projects/OgreHelloWorld/Build/dist/bin/plugins.cfg
+/home/charles/Projects/OgreHelloWorld/Build/dist/bin/resources.cfg
