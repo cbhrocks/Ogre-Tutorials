@@ -1,0 +1,1 @@
+/home/charles/Projects/Ogre/BasicTutorial3/Build/CMakeFiles/OgreApp.dir
