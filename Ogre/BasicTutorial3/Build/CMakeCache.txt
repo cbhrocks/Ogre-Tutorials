@@ -17,6 +17,12 @@
 //The threading library used by boost-thread
 BOOST_THREAD_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libpthread.so
 
+//Value Computed by CMake
+BasicTutorial3_BINARY_DIR:STATIC=/home/charles/Projects/Ogre/BasicTutorial3/Build
+
+//Value Computed by CMake
+BasicTutorial3_SOURCE_DIR:STATIC=/home/charles/Projects/Ogre/BasicTutorial3
+
 //Boost atomic library (debug)
 Boost_ATOMIC_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_atomic.so
 
@@ -161,7 +167,7 @@ CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=OgreApp
+CMAKE_PROJECT_NAME:STATIC=BasicTutorial3
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib

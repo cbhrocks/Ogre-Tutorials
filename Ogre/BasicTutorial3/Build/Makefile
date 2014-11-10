@@ -143,24 +143,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named OgreApp
+# Target rules for targets named BasicTutorial3
 
 # Build rule for target.
-OgreApp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 OgreApp
-.PHONY : OgreApp
+BasicTutorial3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 BasicTutorial3
+.PHONY : BasicTutorial3
 
 # fast build rule for target.
-OgreApp/fast:
-	$(MAKE) -f CMakeFiles/OgreApp.dir/build.make CMakeFiles/OgreApp.dir/build
-.PHONY : OgreApp/fast
+BasicTutorial3/fast:
+	$(MAKE) -f CMakeFiles/BasicTutorial3.dir/build.make CMakeFiles/BasicTutorial3.dir/build
+.PHONY : BasicTutorial3/fast
 
 BaseApplication.o: BaseApplication.cpp.o
 .PHONY : BaseApplication.o
 
 # target to build an object file
 BaseApplication.cpp.o:
-	$(MAKE) -f CMakeFiles/OgreApp.dir/build.make CMakeFiles/OgreApp.dir/BaseApplication.cpp.o
+	$(MAKE) -f CMakeFiles/BasicTutorial3.dir/build.make CMakeFiles/BasicTutorial3.dir/BaseApplication.cpp.o
 .PHONY : BaseApplication.cpp.o
 
 BaseApplication.i: BaseApplication.cpp.i
@@ -168,7 +168,7 @@ BaseApplication.i: BaseApplication.cpp.i
 
 # target to preprocess a source file
 BaseApplication.cpp.i:
-	$(MAKE) -f CMakeFiles/OgreApp.dir/build.make CMakeFiles/OgreApp.dir/BaseApplication.cpp.i
+	$(MAKE) -f CMakeFiles/BasicTutorial3.dir/build.make CMakeFiles/BasicTutorial3.dir/BaseApplication.cpp.i
 .PHONY : BaseApplication.cpp.i
 
 BaseApplication.s: BaseApplication.cpp.s
@@ -176,7 +176,7 @@ BaseApplication.s: BaseApplication.cpp.s
 
 # target to generate assembly for a file
 BaseApplication.cpp.s:
-	$(MAKE) -f CMakeFiles/OgreApp.dir/build.make CMakeFiles/OgreApp.dir/BaseApplication.cpp.s
+	$(MAKE) -f CMakeFiles/BasicTutorial3.dir/build.make CMakeFiles/BasicTutorial3.dir/BaseApplication.cpp.s
 .PHONY : BaseApplication.cpp.s
 
 BasicTutorial3.o: BasicTutorial3.cpp.o
@@ -184,7 +184,7 @@ BasicTutorial3.o: BasicTutorial3.cpp.o
 
 # target to build an object file
 BasicTutorial3.cpp.o:
-	$(MAKE) -f CMakeFiles/OgreApp.dir/build.make CMakeFiles/OgreApp.dir/BasicTutorial3.cpp.o
+	$(MAKE) -f CMakeFiles/BasicTutorial3.dir/build.make CMakeFiles/BasicTutorial3.dir/BasicTutorial3.cpp.o
 .PHONY : BasicTutorial3.cpp.o
 
 BasicTutorial3.i: BasicTutorial3.cpp.i
@@ -192,7 +192,7 @@ BasicTutorial3.i: BasicTutorial3.cpp.i
 
 # target to preprocess a source file
 BasicTutorial3.cpp.i:
-	$(MAKE) -f CMakeFiles/OgreApp.dir/build.make CMakeFiles/OgreApp.dir/BasicTutorial3.cpp.i
+	$(MAKE) -f CMakeFiles/BasicTutorial3.dir/build.make CMakeFiles/BasicTutorial3.dir/BasicTutorial3.cpp.i
 .PHONY : BasicTutorial3.cpp.i
 
 BasicTutorial3.s: BasicTutorial3.cpp.s
@@ -200,7 +200,7 @@ BasicTutorial3.s: BasicTutorial3.cpp.s
 
 # target to generate assembly for a file
 BasicTutorial3.cpp.s:
-	$(MAKE) -f CMakeFiles/OgreApp.dir/build.make CMakeFiles/OgreApp.dir/BasicTutorial3.cpp.s
+	$(MAKE) -f CMakeFiles/BasicTutorial3.dir/build.make CMakeFiles/BasicTutorial3.dir/BasicTutorial3.cpp.s
 .PHONY : BasicTutorial3.cpp.s
 
 # Help Target
@@ -209,7 +209,7 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... OgreApp"
+	@echo "... BasicTutorial3"
 	@echo "... edit_cache"
 	@echo "... install"
 	@echo "... install/local"

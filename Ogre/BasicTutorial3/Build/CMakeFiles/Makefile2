@@ -56,38 +56,38 @@ CMAKE_SOURCE_DIR = /home/charles/Projects/Ogre/BasicTutorial3
 CMAKE_BINARY_DIR = /home/charles/Projects/Ogre/BasicTutorial3/Build
 
 #=============================================================================
-# Target rules for target CMakeFiles/OgreApp.dir
+# Target rules for target CMakeFiles/BasicTutorial3.dir
 
 # All Build rule for target.
-CMakeFiles/OgreApp.dir/all:
-	$(MAKE) -f CMakeFiles/OgreApp.dir/build.make CMakeFiles/OgreApp.dir/depend
-	$(MAKE) -f CMakeFiles/OgreApp.dir/build.make CMakeFiles/OgreApp.dir/build
+CMakeFiles/BasicTutorial3.dir/all:
+	$(MAKE) -f CMakeFiles/BasicTutorial3.dir/build.make CMakeFiles/BasicTutorial3.dir/depend
+	$(MAKE) -f CMakeFiles/BasicTutorial3.dir/build.make CMakeFiles/BasicTutorial3.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/charles/Projects/Ogre/BasicTutorial3/Build/CMakeFiles  1 2
-	@echo "Built target OgreApp"
-.PHONY : CMakeFiles/OgreApp.dir/all
+	@echo "Built target BasicTutorial3"
+.PHONY : CMakeFiles/BasicTutorial3.dir/all
 
 # Include target in all.
-all: CMakeFiles/OgreApp.dir/all
+all: CMakeFiles/BasicTutorial3.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/OgreApp.dir/rule: cmake_check_build_system
+CMakeFiles/BasicTutorial3.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/charles/Projects/Ogre/BasicTutorial3/Build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/OgreApp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/BasicTutorial3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/charles/Projects/Ogre/BasicTutorial3/Build/CMakeFiles 0
-.PHONY : CMakeFiles/OgreApp.dir/rule
+.PHONY : CMakeFiles/BasicTutorial3.dir/rule
 
 # Convenience name for target.
-OgreApp: CMakeFiles/OgreApp.dir/rule
-.PHONY : OgreApp
+BasicTutorial3: CMakeFiles/BasicTutorial3.dir/rule
+.PHONY : BasicTutorial3
 
 # clean rule for target.
-CMakeFiles/OgreApp.dir/clean:
-	$(MAKE) -f CMakeFiles/OgreApp.dir/build.make CMakeFiles/OgreApp.dir/clean
-.PHONY : CMakeFiles/OgreApp.dir/clean
+CMakeFiles/BasicTutorial3.dir/clean:
+	$(MAKE) -f CMakeFiles/BasicTutorial3.dir/build.make CMakeFiles/BasicTutorial3.dir/clean
+.PHONY : CMakeFiles/BasicTutorial3.dir/clean
 
 # clean rule for target.
-clean: CMakeFiles/OgreApp.dir/clean
+clean: CMakeFiles/BasicTutorial3.dir/clean
 .PHONY : clean
 
 #=============================================================================
