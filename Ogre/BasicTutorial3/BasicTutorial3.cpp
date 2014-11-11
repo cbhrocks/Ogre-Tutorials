@@ -16,6 +16,8 @@ This source file is part of the
 */
 #include "BasicTutorial3.h"
 
+OgreBites::Label* mInfoLabel;
+
 //-------------------------------------------------------------------------------------
 //-------------------------------------------------------------------------------------
 BasicTutorial3::BasicTutorial3(void)
@@ -28,7 +30,8 @@ BasicTutorial3::~BasicTutorial3(void)
 //-------------------------------------------------------------------------------------
 void BasicTutorial3::destroyScene(void)
 {
-
+    OGRE_DELETE mTerrainGroup;
+    OGRE_DELETE mTerrainGlobals;
 }
 //-------------------------------------------------------------------------------------
 void getTerrainImage(bool flipX, bool flipY, Ogre::Image& img)
@@ -170,16 +173,53 @@ void BasicTutorial3::createScene(void)
     }
 
     mTerrainGroup->freeTemporaryResources();
+
+    Ogre::ColourValue fadeColour(0.1, 0.1, 0.1);
+    mWindow->getViewport(0)->setBackgroundColour(fadeColour);
+    mSceneMgr->setFog(Ogre::FOG_LINEAR, fadeColour, 0.0, 10, 150);
+
+    Ogre::Plane plane;
+    plane.d = 10;
+    plane.normal = Ogre::Vector3::NEGATIVE_UNIT_Y;
+
+    mSceneMgr->setSkyPlane(true, plane, "Examples/SpaceSkyPlane", 100, 45, true, 0.5, 150, 150);
 }
 //-------------------------------------------------------------------------------------
 void BasicTutorial3::createFrameListener(void)
 {
+    BaseApplication::createFrameListener();
 
+    mInfoLabel = mTrayMgr->createLabel(OgreBites::TL_TOP, "TInfo", "", 350);
 }
 //-------------------------------------------------------------------------------------
 bool BasicTutorial3::frameRenderingQueued(const Ogre::FrameEvent& evt)
 {
     bool ret = BaseApplication::frameRenderingQueued(evt);
+
+    if (mTerrainGroup->isDerivedDataUpdateInProgress())
+    {
+        mTrayMgr->moveWidgetToTray(mInfoLabel, OgreBites::TL_TOP, 0);
+        mInfoLabel->show();
+        if (mTerrainsImported)
+        {
+            mInfoLabel->setCaption("Building terrain, please wait...");
+        }
+        else
+        {
+            mInfoLabel->setCaption("Updating textures, patience...");
+        }
+    }
+    else
+    {
+        mTrayMgr->removeWidgetFromTray(mInfoLabel);
+        mInfoLabel->hide();
+        if (mTerrainsImported)
+        {
+            mTerrainGroup->saveAllTerrains(true);
+            mTerrainsImported = false;
+        }
+    }
+
     return ret;
 }
 

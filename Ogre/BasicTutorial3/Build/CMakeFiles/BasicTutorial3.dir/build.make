@@ -116,6 +116,7 @@ dist/bin/BasicTutorial3: /usr/lib/x86_64-linux-gnu/libboost_system.so
 dist/bin/BasicTutorial3: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
 dist/bin/BasicTutorial3: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
 dist/bin/BasicTutorial3: /usr/lib/x86_64-linux-gnu/libpthread.so
+dist/bin/BasicTutorial3: /usr/local/lib/libOgreTerrain.so
 dist/bin/BasicTutorial3: /usr/lib/x86_64-linux-gnu/libOIS.so
 dist/bin/BasicTutorial3: /usr/local/lib/libOgreOverlay.so
 dist/bin/BasicTutorial3: CMakeFiles/BasicTutorial3.dir/link.txt
