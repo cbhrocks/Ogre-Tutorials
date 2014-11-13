@@ -39,6 +39,8 @@ OISKeyboard.h
 -
 OISMouse.h
 -
+OgreWindowEventUtilities.h
+-
 
 /usr/include/ois/OISConfig.h
 

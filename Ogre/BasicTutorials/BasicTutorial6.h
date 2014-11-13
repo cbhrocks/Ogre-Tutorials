@@ -25,9 +25,11 @@ This source file is part of the
 #include <OISMouse.h>
 #include <OgreWindowEventUtilities.h>
 
-class BasicTutorial6
+class BasicTutorial6 : public Ogre::WindowEventListener, public Ogre::FrameListener
 {
 private:
+    Ogre::Root* mRoot;
+    Ogre::String mPluginsCfg;
     Ogre::SceneManager* mSceneMgr;
     Ogre::Camera* mCamera;
 public:
@@ -35,13 +37,15 @@ public:
     virtual ~BasicTutorial6(void);
     bool go(void);
 protected:
-    Ogre::Root* mRoot;
-    Ogre::String mPluginsCfg;
     Ogre::String mResourcesCfg;
     Ogre::RenderWindow* mWindow;
     OIS::InputManager* mInputManager;
     OIS::Mouse* mMouse;
-    OIS::Keyboard* mkeyboard;
+    OIS::Keyboard* mKeyboard;
+    virtual void windowResized(Ogre::RenderWindow* rw);
+    virtual void windowClosed(Ogre::RenderWindow* rw);
+    // Ogre::FrameListener
+    virtual bool frameRenderingQueued(const Ogre::FrameEvent& evt);
 };
 
 #endif // #ifndef __BasicTutorial6_h_

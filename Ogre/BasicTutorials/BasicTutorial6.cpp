@@ -36,6 +36,9 @@ BasicTutorial6::BasicTutorial6(void)
 //-------------------------------------------------------------------------------------
 BasicTutorial6::~BasicTutorial6(void)
 {
+    //Remove ourself as a Window listener
+    Ogre::WindowEventUtilities::removeWindowEventListener(mWindow, this);
+    windowClosed(mWindow);
     delete mRoot;
 }
 
@@ -119,6 +122,7 @@ bool BasicTutorial6::go(void)
     Ogre::Light* light1 = mSceneMgr->createLight("MainLight");
     light1->setPosition(20, 80, 50);
 
+    // Starting up OIS
     Ogre::LogManager::getSingletonPtr()->logMessage("*** Initializing OIS ***");
     OIS::ParamList pl;
     size_t windowHnd = 0;
@@ -133,19 +137,59 @@ bool BasicTutorial6::go(void)
     mKeyboard = static_cast<OIS::Keyboard*>(mInputManager->createInputObject( OIS::OISKeyboard, false ));
     mMouse = static_cast<OIS::Mouse*>(mInputManager->createInputObject( OIS::OISMouse, false ));
 
-    while(true)
+    // Render loop
+    mRoot->addFrameListener(this);
+
+    mRoot->startRendering();
+
+    //Set initial mouse clipping size
+    windowResized(mWindow);
+
+    //Register as a Window listener
+    Ogre::WindowEventUtilities::addWindowEventListener(mWindow, this);
+
+    return true;
+}
+//Adjust mouse clipping area
+void BasicTutorial6::windowResized(Ogre::RenderWindow* rw)
+{
+    unsigned int width, height, depth;
+    int left, top;
+    rw->getMetrics(width, height, depth, left, top);
+
+    const OIS::MouseState &ms = mMouse->getMouseState();
+    ms.width = width;
+    ms.height = height;
+}
+
+//Unattach OIS before window shutdown (very important under Linux)
+void BasicTutorial6::windowClosed(Ogre::RenderWindow* rw)
+{
+    //Only close for window that created OIS (the main window in these demos)
+    if(rw == mWindow)
     {
-        // Pump window messages for nice behaviour
-        Ogre::WindowEventUtilities::messagePump();
-
-        if(mWindow->isClosed())
+        if(mInputManager)
         {
-            return false;
-        }
+            mInputManager->destroyInputObject( mMouse );
+            mInputManager->destroyInputObject( mKeyboard );
 
-        // Render a frame
-        if(!mRoot->renderOneFrame()) return false;
+            OIS::InputManager::destroyInputSystem(mInputManager);
+            mInputManager = 0;
+        }
     }
+}
+
+bool BasicTutorial6::frameRenderingQueued(const Ogre::FrameEvent& evt)
+{
+    if(mWindow->isClosed())
+        return false;
+
+    //Need to capture/update each device
+    mKeyboard->capture();
+    mMouse->capture();
+
+    if(mKeyboard->isKeyDown(OIS::KC_ESCAPE))
+        return false;
 
     return true;
 }
