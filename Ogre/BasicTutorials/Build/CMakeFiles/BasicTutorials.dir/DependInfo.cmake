@@ -4,6 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
+  "/home/charles/Projects/Ogre/BasicTutorials/BaseApplication.cpp" "/home/charles/Projects/Ogre/BasicTutorials/Build/CMakeFiles/BasicTutorials.dir/BaseApplication.cpp.o"
   "/home/charles/Projects/Ogre/BasicTutorials/BasicTutorial6.cpp" "/home/charles/Projects/Ogre/BasicTutorials/Build/CMakeFiles/BasicTutorials.dir/BasicTutorial6.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")

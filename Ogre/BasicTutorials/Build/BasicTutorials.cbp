@@ -134,7 +134,11 @@
          </MakeCommands>
       </Target>
       </Build>
+      <Unit filename="/home/charles/Projects/Ogre/BasicTutorials/BaseApplication.cpp">
+      </Unit>
       <Unit filename="/home/charles/Projects/Ogre/BasicTutorials/BasicTutorial6.cpp">
+      </Unit>
+      <Unit filename="/home/charles/Projects/Ogre/BasicTutorials/BaseApplication.h">
       </Unit>
       <Unit filename="/home/charles/Projects/Ogre/BasicTutorials/BasicTutorial6.h">
       </Unit>

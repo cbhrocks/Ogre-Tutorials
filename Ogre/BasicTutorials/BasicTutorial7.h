@@ -1,6 +1,6 @@
 /*
 -----------------------------------------------------------------------------
-Filename:    BasicTutorial5.h
+Filename:    BasicTutorial7.h
 -----------------------------------------------------------------------------
 
 This source file is part of the
@@ -14,36 +14,36 @@ This source file is part of the
       http://www.ogre3d.org/tikiwiki/
 -----------------------------------------------------------------------------
 */
-#ifndef __BasicTutorial5_h_
-#define __BasicTutorial5_h_
-
 #include "BaseApplication.h"
 
-class BasicTutorial5 : public BaseApplication
+#include <CEGUI/CEGUI.h>
+#include <Ogre/Renderer.h> //from 0.8 it's just Ogre/Renderer.h
+
+class BasicTutorial7 : public BaseApplication
 {
 public:
-    BasicTutorial5(void);
-    virtual ~BasicTutorial5(void);
+    BasicTutorial7(void);
+    virtual ~BasicTutorial7(void);
 
 protected:
+    CEGUI::OgreRenderer* mRenderer;
+
     virtual void createScene(void);
+
     virtual void createFrameListener(void);
 
     // Ogre::FrameListener
-    virtual bool frameRenderingQueued(const Ogre::FrameEvent& evt );
+    virtual bool frameRenderingQueued(const Ogre::FrameEvent& evt);
+
     // OIS::KeyListener
-    virtual bool keyPressed( const OIS::KeyEvent& evt );
-    virtual bool keyReleased( const OIS::KeyEvent& evt );
+    virtual bool keyPressed( const OIS::KeyEvent &arg );
+    virtual bool keyReleased( const OIS::KeyEvent &arg );
     // OIS::MouseListener
-    virtual bool mouseMoved( const OIS::MouseEvent& evt );
-    virtual bool mousePressed( const OIS::MouseEvent& evt, OIS::MouseButtonID id );
-    virtual bool mouseReleased( const OIS::MouseEvent& evt, OIS::MouseButtonID id );
+    virtual bool mouseMoved( const OIS::MouseEvent &arg );
+    virtual bool mousePressed( const OIS::MouseEvent &arg, OIS::MouseButtonID id );
+    virtual bool mouseReleased( const OIS::MouseEvent &arg, OIS::MouseButtonID id );
 
-    Ogre::Real mRotate;          // The rotate constant
-    Ogre::Real mMove;            // The movement constant
-    Ogre::SceneNode *mCamNode;   // The SceneNode the camera is currently attached to
-    Ogre::Vector3 mDirection;    // Value to move in the correct direction
-
+    bool quit(const CEGUI::EventArgs &e);
 };
 
-#endif // #ifndef __BasicTutorial5_h_
+#endif // #ifndef __BasicTutorial7_h_

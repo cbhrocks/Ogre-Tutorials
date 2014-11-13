@@ -108,12 +108,12 @@ if (NOT OGRE_BUILD_PLATFORM_IPHONE)
 endif()
 
 set(HDRS
-	#./BaseApplication.h
+	./BaseApplication.h
 	./BasicTutorial6.h
 )
 
 set(SRCS
-	#./BaseApplication.cpp
+	./BaseApplication.cpp
 	./BasicTutorial6.cpp
 )
 

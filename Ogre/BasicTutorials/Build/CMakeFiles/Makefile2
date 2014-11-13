@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = /home/charles/Projects/Ogre/BasicTutorials/Build
 CMakeFiles/BasicTutorials.dir/all:
 	$(MAKE) -f CMakeFiles/BasicTutorials.dir/build.make CMakeFiles/BasicTutorials.dir/depend
 	$(MAKE) -f CMakeFiles/BasicTutorials.dir/build.make CMakeFiles/BasicTutorials.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/charles/Projects/Ogre/BasicTutorials/Build/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/charles/Projects/Ogre/BasicTutorials/Build/CMakeFiles  1 2
 	@echo "Built target BasicTutorials"
 .PHONY : CMakeFiles/BasicTutorials.dir/all
 
@@ -72,7 +72,7 @@ all: CMakeFiles/BasicTutorials.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/BasicTutorials.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/charles/Projects/Ogre/BasicTutorials/Build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/charles/Projects/Ogre/BasicTutorials/Build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/BasicTutorials.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/charles/Projects/Ogre/BasicTutorials/Build/CMakeFiles 0
 .PHONY : CMakeFiles/BasicTutorials.dir/rule

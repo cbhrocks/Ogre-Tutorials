@@ -155,6 +155,30 @@ BasicTutorials/fast:
 	$(MAKE) -f CMakeFiles/BasicTutorials.dir/build.make CMakeFiles/BasicTutorials.dir/build
 .PHONY : BasicTutorials/fast
 
+BaseApplication.o: BaseApplication.cpp.o
+.PHONY : BaseApplication.o
+
+# target to build an object file
+BaseApplication.cpp.o:
+	$(MAKE) -f CMakeFiles/BasicTutorials.dir/build.make CMakeFiles/BasicTutorials.dir/BaseApplication.cpp.o
+.PHONY : BaseApplication.cpp.o
+
+BaseApplication.i: BaseApplication.cpp.i
+.PHONY : BaseApplication.i
+
+# target to preprocess a source file
+BaseApplication.cpp.i:
+	$(MAKE) -f CMakeFiles/BasicTutorials.dir/build.make CMakeFiles/BasicTutorials.dir/BaseApplication.cpp.i
+.PHONY : BaseApplication.cpp.i
+
+BaseApplication.s: BaseApplication.cpp.s
+.PHONY : BaseApplication.s
+
+# target to generate assembly for a file
+BaseApplication.cpp.s:
+	$(MAKE) -f CMakeFiles/BasicTutorials.dir/build.make CMakeFiles/BasicTutorials.dir/BaseApplication.cpp.s
+.PHONY : BaseApplication.cpp.s
+
 BasicTutorial6.o: BasicTutorial6.cpp.o
 .PHONY : BasicTutorial6.o
 
@@ -192,6 +216,9 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... BaseApplication.o"
+	@echo "... BaseApplication.i"
+	@echo "... BaseApplication.s"
 	@echo "... BasicTutorial6.o"
 	@echo "... BasicTutorial6.i"
 	@echo "... BasicTutorial6.s"

@@ -1,4 +1,5 @@
 FILE(REMOVE_RECURSE
+  "CMakeFiles/BasicTutorials.dir/BaseApplication.cpp.o"
   "CMakeFiles/BasicTutorials.dir/BasicTutorial6.cpp.o"
   "dist/bin/BasicTutorials.pdb"
   "dist/bin/BasicTutorials"
