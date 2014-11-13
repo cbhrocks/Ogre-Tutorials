@@ -14,10 +14,13 @@ This source file is part of the
       http://www.ogre3d.org/tikiwiki/
 -----------------------------------------------------------------------------
 */
+#ifndef __BasicTutorial7_h_
+#define __BasicTutorial7_h_
+
 #include "BaseApplication.h"
 
 #include <CEGUI/CEGUI.h>
-#include <Ogre/Renderer.h> //from 0.8 it's just Ogre/Renderer.h
+#include <CEGUI/RendererModules/Ogre/Renderer.h> //from 0.8 it's just Ogre/Renderer.h
 
 class BasicTutorial7 : public BaseApplication
 {

@@ -1,164 +1,196 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_project_file>
-   <FileVersion major="1" minor="6" />
-   <Project>
-      <Option title="BasicTutorials" />
-      <Option makefile_is_custom="1" />
-      <Option compiler="gcc" />
-      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\usr\local\lib\OGRE\;CMake Files\..\..\..\..\..\usr\local\lib\OGRE\cmake\;" />
-      <Build>
-      <Target title="all">
-         <Option working_dir="/home/charles/Projects/Ogre/BasicTutorials/Build" />
-         <Option type="4" />
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 all" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="BasicTutorials">
-         <Option output="/home/charles/Projects/Ogre/BasicTutorials/Build/dist/bin/BasicTutorials" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/charles/Projects/Ogre/BasicTutorials/Build/dist/bin" />
-         <Option object_output="./" />
-         <Option type="0" />
-         <Option compiler="gcc" />
-         <Compiler>
-            <Add option="-DBOOST_ALL_NO_LIB" />
-            <Add directory="/usr/include" />
-            <Add directory="/usr/include/c++/4.8" />
-            <Add directory="/usr/include/c++/4.8/backward" />
-            <Add directory="/usr/include/ois" />
-            <Add directory="/usr/include/x86_64-linux-gnu" />
-            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
-            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
-            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
-            <Add directory="/usr/local/include" />
-            <Add directory="/usr/local/include/OGRE" />
-            <Add directory="/usr/local/include/OGRE/Overlay" />
-            <Add directory="/usr/local/share/OGRE/samples/Common/include" />
-         </Compiler>
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 BasicTutorials" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="BasicTutorials/fast">
-         <Option output="/home/charles/Projects/Ogre/BasicTutorials/Build/dist/bin/BasicTutorials" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/charles/Projects/Ogre/BasicTutorials/Build/dist/bin" />
-         <Option object_output="./" />
-         <Option type="0" />
-         <Option compiler="gcc" />
-         <Compiler>
-            <Add option="-DBOOST_ALL_NO_LIB" />
-            <Add directory="/usr/include" />
-            <Add directory="/usr/include/c++/4.8" />
-            <Add directory="/usr/include/c++/4.8/backward" />
-            <Add directory="/usr/include/ois" />
-            <Add directory="/usr/include/x86_64-linux-gnu" />
-            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
-            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
-            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
-            <Add directory="/usr/local/include" />
-            <Add directory="/usr/local/include/OGRE" />
-            <Add directory="/usr/local/include/OGRE/Overlay" />
-            <Add directory="/usr/local/share/OGRE/samples/Common/include" />
-         </Compiler>
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 BasicTutorials/fast" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="edit_cache">
-         <Option working_dir="/home/charles/Projects/Ogre/BasicTutorials/Build" />
-         <Option type="4" />
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 edit_cache" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="install">
-         <Option working_dir="/home/charles/Projects/Ogre/BasicTutorials/Build" />
-         <Option type="4" />
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 install" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="install/local">
-         <Option working_dir="/home/charles/Projects/Ogre/BasicTutorials/Build" />
-         <Option type="4" />
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 install/local" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="install/strip">
-         <Option working_dir="/home/charles/Projects/Ogre/BasicTutorials/Build" />
-         <Option type="4" />
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 install/strip" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="list_install_components">
-         <Option working_dir="/home/charles/Projects/Ogre/BasicTutorials/Build" />
-         <Option type="4" />
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 list_install_components" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="rebuild_cache">
-         <Option working_dir="/home/charles/Projects/Ogre/BasicTutorials/Build" />
-         <Option type="4" />
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      </Build>
-      <Unit filename="/home/charles/Projects/Ogre/BasicTutorials/BaseApplication.cpp">
-      </Unit>
-      <Unit filename="/home/charles/Projects/Ogre/BasicTutorials/BasicTutorial6.cpp">
-      </Unit>
-      <Unit filename="/home/charles/Projects/Ogre/BasicTutorials/BaseApplication.h">
-      </Unit>
-      <Unit filename="/home/charles/Projects/Ogre/BasicTutorials/BasicTutorial6.h">
-      </Unit>
-      <Unit filename="/home/charles/Projects/Ogre/BasicTutorials/CMakeLists.txt">
-          <Option virtualFolder="CMake Files\" />
-      </Unit>
-      <Unit filename="/home/charles/Projects/Ogre/BasicTutorials/../../../../../usr/local/lib/OGRE/cmake/FindOGRE.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\OGRE\cmake\" />
-      </Unit>
-      <Unit filename="/home/charles/Projects/Ogre/BasicTutorials/../../../../../usr/local/lib/OGRE/cmake/FindPkgMacros.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\OGRE\cmake\" />
-      </Unit>
-      <Unit filename="/home/charles/Projects/Ogre/BasicTutorials/../../../../../usr/local/lib/OGRE/cmake/PreprocessorUtils.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\OGRE\cmake\" />
-      </Unit>
-      <Unit filename="/home/charles/Projects/Ogre/BasicTutorials/../../../../../usr/local/lib/OGRE/cmake/FindOIS.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\OGRE\cmake\" />
-      </Unit>
-      <Unit filename="/home/charles/Projects/Ogre/BasicTutorials/../../../../../usr/local/lib/OGRE/cmake/FindPkgMacros.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\OGRE\cmake\" />
-      </Unit>
-   </Project>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="BasicTutorials" />
+		<Option makefile_is_custom="1" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="CMake Files/;CMake Files/../;CMake Files/../../;CMake Files/../../../;CMake Files/../../../../;CMake Files/../../../../../;CMake Files/../../../../../usr/;CMake Files/../../../../../usr/local/;CMake Files/../../../../../usr/local/lib/;CMake Files/../../../../../usr/local/lib/OGRE/;CMake Files/../../../../../usr/local/lib/OGRE/cmake/;" />
+		<Build>
+			<Target title="all">
+				<Option type="4" />
+				<Option compiler="gcc" />
+				<MakeCommands>
+					<Build command='/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 all' />
+					<CompileFile command='/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+			<Target title="BasicTutorials">
+				<Option output="/home/charles/Projects/Ogre/BasicTutorials/Build/dist/bin/BasicTutorials" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="/home/charles/Projects/Ogre/BasicTutorials/Build/dist/bin" />
+				<Option object_output="./" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DBOOST_ALL_NO_LIB" />
+					<Add directory="/usr/include" />
+					<Add directory="/usr/include/c++/4.8" />
+					<Add directory="/usr/include/c++/4.8/backward" />
+					<Add directory="/usr/include/ois" />
+					<Add directory="/usr/include/x86_64-linux-gnu" />
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+					<Add directory="/usr/local/include" />
+					<Add directory="/usr/local/include/OGRE" />
+					<Add directory="/usr/local/include/OGRE/Overlay" />
+					<Add directory="/usr/local/include/cegui-0" />
+					<Add directory="/usr/local/include/cegui-0/CEGUI" />
+					<Add directory="/usr/local/share/OGRE/samples/Common/include" />
+				</Compiler>
+				<MakeCommands>
+					<Build command='/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 BasicTutorials' />
+					<CompileFile command='/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+			<Target title="BasicTutorials/fast">
+				<Option output="/home/charles/Projects/Ogre/BasicTutorials/Build/dist/bin/BasicTutorials" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="/home/charles/Projects/Ogre/BasicTutorials/Build/dist/bin" />
+				<Option object_output="./" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DBOOST_ALL_NO_LIB" />
+					<Add directory="/usr/include" />
+					<Add directory="/usr/include/c++/4.8" />
+					<Add directory="/usr/include/c++/4.8/backward" />
+					<Add directory="/usr/include/ois" />
+					<Add directory="/usr/include/x86_64-linux-gnu" />
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+					<Add directory="/usr/local/include" />
+					<Add directory="/usr/local/include/OGRE" />
+					<Add directory="/usr/local/include/OGRE/Overlay" />
+					<Add directory="/usr/local/include/cegui-0" />
+					<Add directory="/usr/local/include/cegui-0/CEGUI" />
+					<Add directory="/usr/local/share/OGRE/samples/Common/include" />
+				</Compiler>
+				<MakeCommands>
+					<Build command='/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 BasicTutorials/fast' />
+					<CompileFile command='/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option type="4" />
+				<Option compiler="gcc" />
+				<MakeCommands>
+					<Build command='/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 edit_cache' />
+					<CompileFile command='/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option type="4" />
+				<Option compiler="gcc" />
+				<MakeCommands>
+					<Build command='/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 install' />
+					<CompileFile command='/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option type="4" />
+				<Option compiler="gcc" />
+				<MakeCommands>
+					<Build command='/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 install/local' />
+					<CompileFile command='/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option type="4" />
+				<Option compiler="gcc" />
+				<MakeCommands>
+					<Build command='/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 install/strip' />
+					<CompileFile command='/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option type="4" />
+				<Option compiler="gcc" />
+				<MakeCommands>
+					<Build command='/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 list_install_components' />
+					<CompileFile command='/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option type="4" />
+				<Option compiler="gcc" />
+				<MakeCommands>
+					<Build command='/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 rebuild_cache' />
+					<CompileFile command='/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;' />
+					<Clean command='/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 clean' />
+					<DistClean command='/usr/bin/make -f &quot;/home/charles/Projects/Ogre/BasicTutorials/Build/Makefile&quot;  VERBOSE=1 clean' />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="../../../../../../usr/local/lib/OGRE/cmake/FindCEGUI.cmake">
+			<Option virtualFolder="CMake Files/../../../../../usr/local/lib/OGRE/cmake/" />
+		</Unit>
+		<Unit filename="../../../../../../usr/local/lib/OGRE/cmake/FindOGRE.cmake">
+			<Option virtualFolder="CMake Files/../../../../../usr/local/lib/OGRE/cmake/" />
+		</Unit>
+		<Unit filename="../../../../../../usr/local/lib/OGRE/cmake/FindOIS.cmake">
+			<Option virtualFolder="CMake Files/../../../../../usr/local/lib/OGRE/cmake/" />
+		</Unit>
+		<Unit filename="../../../../../../usr/local/lib/OGRE/cmake/FindPkgMacros.cmake">
+			<Option virtualFolder="CMake Files/../../../../../usr/local/lib/OGRE/cmake/" />
+		</Unit>
+		<Unit filename="../../../../../../usr/local/lib/OGRE/cmake/FindPkgMacros.cmake">
+			<Option virtualFolder="CMake Files/../../../../../usr/local/lib/OGRE/cmake/" />
+		</Unit>
+		<Unit filename="../../../../../../usr/local/lib/OGRE/cmake/FindPkgMacros.cmake">
+			<Option virtualFolder="CMake Files/../../../../../usr/local/lib/OGRE/cmake/" />
+		</Unit>
+		<Unit filename="../../../../../../usr/local/lib/OGRE/cmake/PreprocessorUtils.cmake">
+			<Option virtualFolder="CMake Files/../../../../../usr/local/lib/OGRE/cmake/" />
+		</Unit>
+		<Unit filename="../../../../../../usr/local/lib/OGRE/cmake/PreprocessorUtils.cmake">
+			<Option virtualFolder="CMake Files/../../../../../usr/local/lib/OGRE/cmake/" />
+		</Unit>
+		<Unit filename="../BaseApplication.cpp" />
+		<Unit filename="../BaseApplication.h" />
+		<Unit filename="../BasicTutorial5.h" />
+		<Unit filename="../BasicTutorial7.cpp" />
+		<Unit filename="../BasicTutorial7.h" />
+		<Unit filename="../CMakeLists.txt">
+			<Option virtualFolder="CMake Files/" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
 </CodeBlocks_project_file>

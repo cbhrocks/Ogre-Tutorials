@@ -76,6 +76,12 @@ if(NOT OIS_FOUND)
 	message(SEND_ERROR "Failed to find OIS.")
 endif()
 
+# Find CEGUI
+find_package(CEGUI REQUIRED)
+if (NOT CEGUI_FOUND)
+   message(SEND_ERROR "Failed to find CEGUI.")
+endif()
+
 # Find Boost
 if (NOT OGRE_BUILD_PLATFORM_IPHONE)
 	if (WIN32 OR APPLE)
@@ -109,25 +115,26 @@ endif()
 
 set(HDRS
 	./BaseApplication.h
-	./BasicTutorial6.h
+	./BasicTutorial7.h
 )
 
 set(SRCS
 	./BaseApplication.cpp
-	./BasicTutorial6.cpp
+	./BasicTutorial7.cpp
 )
 
 include_directories( ${OIS_INCLUDE_DIRS}
 	${OGRE_INCLUDE_DIRS}
 	${OGRE_SAMPLES_INCLUDEPATH}
 	${OGRE_Overlay_INCLUDE_DIRS}
+	${CEGUI_INCLUDE_DIRS}
 )
 
 add_executable(BasicTutorials WIN32 ${HDRS} ${SRCS})
 
 set_target_properties(BasicTutorials PROPERTIES DEBUG_POSTFIX _d)
 
-target_link_libraries(BasicTutorials ${OGRE_LIBRARIES} ${OIS_LIBRARIES} ${OGRE_Overlay_LIBRARIES})
+target_link_libraries(BasicTutorials ${OGRE_LIBRARIES} ${OIS_LIBRARIES} ${OGRE_Overlay_LIBRARIES} ${CEGUI_LIBRARIES})
 
 file(MAKE_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/dist/bin)
 file(MAKE_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/dist/media)

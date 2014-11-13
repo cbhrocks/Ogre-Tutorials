@@ -75,39 +75,39 @@ CMakeFiles/BasicTutorials.dir/BaseApplication.cpp.o.provides: CMakeFiles/BasicTu
 
 CMakeFiles/BasicTutorials.dir/BaseApplication.cpp.o.provides.build: CMakeFiles/BasicTutorials.dir/BaseApplication.cpp.o
 
-CMakeFiles/BasicTutorials.dir/BasicTutorial6.cpp.o: CMakeFiles/BasicTutorials.dir/flags.make
-CMakeFiles/BasicTutorials.dir/BasicTutorial6.cpp.o: ../BasicTutorial6.cpp
+CMakeFiles/BasicTutorials.dir/BasicTutorial7.cpp.o: CMakeFiles/BasicTutorials.dir/flags.make
+CMakeFiles/BasicTutorials.dir/BasicTutorial7.cpp.o: ../BasicTutorial7.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/charles/Projects/Ogre/BasicTutorials/Build/CMakeFiles $(CMAKE_PROGRESS_2)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/BasicTutorials.dir/BasicTutorial6.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/BasicTutorials.dir/BasicTutorial6.cpp.o -c /home/charles/Projects/Ogre/BasicTutorials/BasicTutorial6.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/BasicTutorials.dir/BasicTutorial7.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/BasicTutorials.dir/BasicTutorial7.cpp.o -c /home/charles/Projects/Ogre/BasicTutorials/BasicTutorial7.cpp
 
-CMakeFiles/BasicTutorials.dir/BasicTutorial6.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BasicTutorials.dir/BasicTutorial6.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/charles/Projects/Ogre/BasicTutorials/BasicTutorial6.cpp > CMakeFiles/BasicTutorials.dir/BasicTutorial6.cpp.i
+CMakeFiles/BasicTutorials.dir/BasicTutorial7.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BasicTutorials.dir/BasicTutorial7.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/charles/Projects/Ogre/BasicTutorials/BasicTutorial7.cpp > CMakeFiles/BasicTutorials.dir/BasicTutorial7.cpp.i
 
-CMakeFiles/BasicTutorials.dir/BasicTutorial6.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BasicTutorials.dir/BasicTutorial6.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/charles/Projects/Ogre/BasicTutorials/BasicTutorial6.cpp -o CMakeFiles/BasicTutorials.dir/BasicTutorial6.cpp.s
+CMakeFiles/BasicTutorials.dir/BasicTutorial7.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BasicTutorials.dir/BasicTutorial7.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/charles/Projects/Ogre/BasicTutorials/BasicTutorial7.cpp -o CMakeFiles/BasicTutorials.dir/BasicTutorial7.cpp.s
 
-CMakeFiles/BasicTutorials.dir/BasicTutorial6.cpp.o.requires:
-.PHONY : CMakeFiles/BasicTutorials.dir/BasicTutorial6.cpp.o.requires
+CMakeFiles/BasicTutorials.dir/BasicTutorial7.cpp.o.requires:
+.PHONY : CMakeFiles/BasicTutorials.dir/BasicTutorial7.cpp.o.requires
 
-CMakeFiles/BasicTutorials.dir/BasicTutorial6.cpp.o.provides: CMakeFiles/BasicTutorials.dir/BasicTutorial6.cpp.o.requires
-	$(MAKE) -f CMakeFiles/BasicTutorials.dir/build.make CMakeFiles/BasicTutorials.dir/BasicTutorial6.cpp.o.provides.build
-.PHONY : CMakeFiles/BasicTutorials.dir/BasicTutorial6.cpp.o.provides
+CMakeFiles/BasicTutorials.dir/BasicTutorial7.cpp.o.provides: CMakeFiles/BasicTutorials.dir/BasicTutorial7.cpp.o.requires
+	$(MAKE) -f CMakeFiles/BasicTutorials.dir/build.make CMakeFiles/BasicTutorials.dir/BasicTutorial7.cpp.o.provides.build
+.PHONY : CMakeFiles/BasicTutorials.dir/BasicTutorial7.cpp.o.provides
 
-CMakeFiles/BasicTutorials.dir/BasicTutorial6.cpp.o.provides.build: CMakeFiles/BasicTutorials.dir/BasicTutorial6.cpp.o
+CMakeFiles/BasicTutorials.dir/BasicTutorial7.cpp.o.provides.build: CMakeFiles/BasicTutorials.dir/BasicTutorial7.cpp.o
 
 # Object files for target BasicTutorials
 BasicTutorials_OBJECTS = \
 "CMakeFiles/BasicTutorials.dir/BaseApplication.cpp.o" \
-"CMakeFiles/BasicTutorials.dir/BasicTutorial6.cpp.o"
+"CMakeFiles/BasicTutorials.dir/BasicTutorial7.cpp.o"
 
 # External object files for target BasicTutorials
 BasicTutorials_EXTERNAL_OBJECTS =
 
 dist/bin/BasicTutorials: CMakeFiles/BasicTutorials.dir/BaseApplication.cpp.o
-dist/bin/BasicTutorials: CMakeFiles/BasicTutorials.dir/BasicTutorial6.cpp.o
+dist/bin/BasicTutorials: CMakeFiles/BasicTutorials.dir/BasicTutorial7.cpp.o
 dist/bin/BasicTutorials: CMakeFiles/BasicTutorials.dir/build.make
 dist/bin/BasicTutorials: /usr/local/lib/libOgreMain.so
 dist/bin/BasicTutorials: /usr/lib/x86_64-linux-gnu/libboost_thread.so
@@ -119,6 +119,7 @@ dist/bin/BasicTutorials: /usr/lib/x86_64-linux-gnu/libpthread.so
 dist/bin/BasicTutorials: /usr/local/lib/libOgreTerrain.so
 dist/bin/BasicTutorials: /usr/lib/x86_64-linux-gnu/libOIS.so
 dist/bin/BasicTutorials: /usr/local/lib/libOgreOverlay.so
+dist/bin/BasicTutorials: /usr/local/lib/libCEGUIBase-0.so
 dist/bin/BasicTutorials: CMakeFiles/BasicTutorials.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable dist/bin/BasicTutorials"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BasicTutorials.dir/link.txt --verbose=$(VERBOSE)
@@ -128,7 +129,7 @@ CMakeFiles/BasicTutorials.dir/build: dist/bin/BasicTutorials
 .PHONY : CMakeFiles/BasicTutorials.dir/build
 
 CMakeFiles/BasicTutorials.dir/requires: CMakeFiles/BasicTutorials.dir/BaseApplication.cpp.o.requires
-CMakeFiles/BasicTutorials.dir/requires: CMakeFiles/BasicTutorials.dir/BasicTutorial6.cpp.o.requires
+CMakeFiles/BasicTutorials.dir/requires: CMakeFiles/BasicTutorials.dir/BasicTutorial7.cpp.o.requires
 .PHONY : CMakeFiles/BasicTutorials.dir/requires
 
 CMakeFiles/BasicTutorials.dir/clean:

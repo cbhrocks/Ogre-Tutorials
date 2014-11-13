@@ -179,29 +179,29 @@ BaseApplication.cpp.s:
 	$(MAKE) -f CMakeFiles/BasicTutorials.dir/build.make CMakeFiles/BasicTutorials.dir/BaseApplication.cpp.s
 .PHONY : BaseApplication.cpp.s
 
-BasicTutorial6.o: BasicTutorial6.cpp.o
-.PHONY : BasicTutorial6.o
+BasicTutorial7.o: BasicTutorial7.cpp.o
+.PHONY : BasicTutorial7.o
 
 # target to build an object file
-BasicTutorial6.cpp.o:
-	$(MAKE) -f CMakeFiles/BasicTutorials.dir/build.make CMakeFiles/BasicTutorials.dir/BasicTutorial6.cpp.o
-.PHONY : BasicTutorial6.cpp.o
+BasicTutorial7.cpp.o:
+	$(MAKE) -f CMakeFiles/BasicTutorials.dir/build.make CMakeFiles/BasicTutorials.dir/BasicTutorial7.cpp.o
+.PHONY : BasicTutorial7.cpp.o
 
-BasicTutorial6.i: BasicTutorial6.cpp.i
-.PHONY : BasicTutorial6.i
+BasicTutorial7.i: BasicTutorial7.cpp.i
+.PHONY : BasicTutorial7.i
 
 # target to preprocess a source file
-BasicTutorial6.cpp.i:
-	$(MAKE) -f CMakeFiles/BasicTutorials.dir/build.make CMakeFiles/BasicTutorials.dir/BasicTutorial6.cpp.i
-.PHONY : BasicTutorial6.cpp.i
+BasicTutorial7.cpp.i:
+	$(MAKE) -f CMakeFiles/BasicTutorials.dir/build.make CMakeFiles/BasicTutorials.dir/BasicTutorial7.cpp.i
+.PHONY : BasicTutorial7.cpp.i
 
-BasicTutorial6.s: BasicTutorial6.cpp.s
-.PHONY : BasicTutorial6.s
+BasicTutorial7.s: BasicTutorial7.cpp.s
+.PHONY : BasicTutorial7.s
 
 # target to generate assembly for a file
-BasicTutorial6.cpp.s:
-	$(MAKE) -f CMakeFiles/BasicTutorials.dir/build.make CMakeFiles/BasicTutorials.dir/BasicTutorial6.cpp.s
-.PHONY : BasicTutorial6.cpp.s
+BasicTutorial7.cpp.s:
+	$(MAKE) -f CMakeFiles/BasicTutorials.dir/build.make CMakeFiles/BasicTutorials.dir/BasicTutorial7.cpp.s
+.PHONY : BasicTutorial7.cpp.s
 
 # Help Target
 help:
@@ -219,9 +219,9 @@ help:
 	@echo "... BaseApplication.o"
 	@echo "... BaseApplication.i"
 	@echo "... BaseApplication.s"
-	@echo "... BasicTutorial6.o"
-	@echo "... BasicTutorial6.i"
-	@echo "... BasicTutorial6.s"
+	@echo "... BasicTutorial7.o"
+	@echo "... BasicTutorial7.i"
+	@echo "... BasicTutorial7.s"
 .PHONY : help
 
 

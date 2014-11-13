@@ -11,6 +11,7 @@ SET(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/2.8.12.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/2.8.12.2/CMakeSystem.cmake"
   "../CMakeLists.txt"
+  "/usr/local/lib/OGRE/cmake/FindCEGUI.cmake"
   "/usr/local/lib/OGRE/cmake/FindOGRE.cmake"
   "/usr/local/lib/OGRE/cmake/FindOIS.cmake"
   "/usr/local/lib/OGRE/cmake/FindPkgMacros.cmake"

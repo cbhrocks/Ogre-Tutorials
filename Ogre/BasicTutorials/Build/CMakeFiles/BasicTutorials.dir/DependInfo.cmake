@@ -5,7 +5,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
   "/home/charles/Projects/Ogre/BasicTutorials/BaseApplication.cpp" "/home/charles/Projects/Ogre/BasicTutorials/Build/CMakeFiles/BasicTutorials.dir/BaseApplication.cpp.o"
-  "/home/charles/Projects/Ogre/BasicTutorials/BasicTutorial6.cpp" "/home/charles/Projects/Ogre/BasicTutorials/Build/CMakeFiles/BasicTutorials.dir/BasicTutorial6.cpp.o"
+  "/home/charles/Projects/Ogre/BasicTutorials/BasicTutorial7.cpp" "/home/charles/Projects/Ogre/BasicTutorials/Build/CMakeFiles/BasicTutorials.dir/BasicTutorial7.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -25,6 +25,8 @@ SET(CMAKE_C_TARGET_INCLUDE_PATH
   "/usr/local/include"
   "/usr/local/share/OGRE/samples/Common/include"
   "/usr/local/include/OGRE/Overlay"
+  "/usr/local/include/cegui-0/CEGUI"
+  "/usr/local/include/cegui-0"
   )
 SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
 SET(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
