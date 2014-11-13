@@ -1,2 +1,0 @@
-/home/charles/Projects/Ogre/BasicTutorial2/Build/dist/bin/plugins.cfg
-/home/charles/Projects/Ogre/BasicTutorial2/Build/dist/bin/resources.cfg

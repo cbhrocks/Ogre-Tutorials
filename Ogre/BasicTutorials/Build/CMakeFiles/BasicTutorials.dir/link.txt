@@ -1,0 +1,1 @@
+/usr/bin/c++   -O2 -g -DNDEBUG    CMakeFiles/BasicTutorials.dir/BasicTutorial6.cpp.o  -o dist/bin/BasicTutorials -rdynamic /usr/local/lib/libOgreMain.so -lboost_thread -lboost_date_time -lboost_system -lboost_atomic -lboost_chrono -lpthread /usr/local/lib/libOgreTerrain.so -lOIS /usr/local/lib/libOgreOverlay.so -Wl,-rpath,/usr/local/lib: 
