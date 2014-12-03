@@ -38,7 +38,7 @@ if(UNIX)
 
 	else ()
 	  message(SEND_ERROR "Failed to find module path.")
-	endif(EXISTS "/usr/local/lib/OGRE")
+	endif()
 endif(UNIX)
 
 if (CMAKE_BUILD_TYPE STREQUAL "")
@@ -76,12 +76,6 @@ if(NOT OIS_FOUND)
 	message(SEND_ERROR "Failed to find OIS.")
 endif()
 
-# Find CEGUI
-find_package(CEGUI REQUIRED)
-if (NOT CEGUI_FOUND)
-   message(SEND_ERROR "Failed to find CEGUI.")
-endif()
-
 # Find Boost
 if (NOT OGRE_BUILD_PLATFORM_IPHONE)
 	if (WIN32 OR APPLE)
@@ -111,6 +105,12 @@ if (NOT OGRE_BUILD_PLATFORM_IPHONE)
 	include_directories(${Boost_INCLUDE_DIR})
 	add_definitions(-DBOOST_ALL_NO_LIB)
 	set(OGRE_LIBRARIES ${OGRE_LIBRARIES} ${Boost_LIBRARIES})
+endif()
+
+# Find CEGUI
+find_package(CEGUI REQUIRED)
+if (NOT CEGUI_FOUND)
+   message(SEND_ERROR "Failed to find CEGUI.")
 endif()
 
 set(HDRS
